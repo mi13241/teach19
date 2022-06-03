@@ -1,0 +1,24 @@
+.text_k{
+    font-family: Lora;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    vertical-align: baseline;
+    text-decoration: none;
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    padding-left: 0pt;
+    text-indent: 0pt;
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+    font-size: 20.0pt;
+    font-weight: bold;
+}
+.img_moi
+{
+    display: block;
+    width: 100% !important;
+}

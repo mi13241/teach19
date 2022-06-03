@@ -1,0 +1,56 @@
+.iconblock-5 {
+    position: relative;
+    margin:60px 0 20px 0;
+    border: 1px solid #C5C5C5;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    text-align:center;
+}
+.iconblock-5 .icon {
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 80px;
+    transform: translate(-50%, -50%); 
+}
+.iconblock-5 .icon i,
+.iconblock-5 .icon img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 32px;
+    transform: translate(-50%, -50%); 
+    color: #337AB7;
+    width: 32px;
+    height: 32px;
+}
+.iconblock-5 .icon svg path {
+    stroke-width: 8px;
+    stroke: #BDE1FF;
+    transition: stroke 300ms ease;       
+}
+.iconblock-5 .icon svg polygon {
+    fill: white; 
+}      
+.iconblock-5 h3 {
+    transition: all 0.7s ease 0s;
+    color: #337AB7;
+    font-size:20px;
+    margin:50px 0 10px 0;
+}    
+.iconblock-5:hover h3 {
+    color: #000;
+}  
+.iconblock-5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 10px 1px rgba(84, 84, 84, 0.5);         
+}
+.iconblock-5:hover .icon svg path {
+    stroke: #337AB7; 
+} 
+.iconblock-5 a:active, /* активная/посещенная ссылка */
+.iconblock-5 a:hover,  /* при наведении */
+.iconblock-5 a {
+  text-decoration: none;
+  color: #666;
+}
